@@ -2702,3 +2702,16 @@
 [2025-01-05T17:34:44.401+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:34:44.401+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-01-05T17:34:44.434+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:34:44.434+0000] {dag.py:4180} INFO - Setting next_dagrun for automate_adf_pipeline to 2025-01-05 00:00:00+00:00, run_after=2025-01-12 00:00:00+00:00
 [2025-01-05T17:34:44.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/adf_pipeline_dag.py took 0.159 seconds
+[2025-01-05T17:35:14.948+0000] {processor.py:186} INFO - Started process (PID=13108) to work on /opt/airflow/dags/adf_pipeline_dag.py
+[2025-01-05T17:35:14.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/adf_pipeline_dag.py for tasks to queue
+[2025-01-05T17:35:14.953+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:35:14.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/adf_pipeline_dag.py
+[2025-01-05T17:35:14.995+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:35:14.995+0000] {connection.py:277} WARNING - Connection schemes (type: azure_data_factory) shall not contain '_' according to RFC3986.
+[2025-01-05T17:35:14.998+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:35:14.997+0000] {base.py:84} INFO - Retrieving connection 'azure_data_factory'
+[2025-01-05T17:35:14.999+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:35:14.999+0000] {adf_pipeline_dag.py:18} INFO - Connection details: azure_data_factory
+[2025-01-05T17:35:15.001+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:35:15.000+0000] {adf_pipeline_dag.py:19} INFO - Extra: {'tenantId': '715d24dc-a729-4e45-baab-45e2ecf3c962', 'subscriptionId': '7b24e39e-de70-4ce2-8393-80dd0a5753c4', 'resource_group_name': 'medallion-spark-dbt-rg', 'factory_name': 'medallion-adff-test'}
+[2025-01-05T17:35:15.002+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:35:15.002+0000] {adf_pipeline_dag.py:20} INFO - Factory name: medallion-adff-test
+[2025-01-05T17:35:15.003+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:35:15.003+0000] {adf_pipeline_dag.py:21} INFO - Resource group name: medallion-spark-dbt-rg
+[2025-01-05T17:35:15.016+0000] {processor.py:925} INFO - DAG(s) 'automate_adf_pipeline' retrieved from /opt/airflow/dags/adf_pipeline_dag.py
+[2025-01-05T17:35:15.046+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:35:15.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-01-05T17:35:15.074+0000] {logging_mixin.py:190} INFO - [2025-01-05T17:35:15.073+0000] {dag.py:4180} INFO - Setting next_dagrun for automate_adf_pipeline to 2025-01-05 00:00:00+00:00, run_after=2025-01-12 00:00:00+00:00
+[2025-01-05T17:35:15.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/adf_pipeline_dag.py took 0.175 seconds

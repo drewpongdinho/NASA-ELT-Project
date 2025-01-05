@@ -96,4 +96,8 @@ The pipeline comprises the following components:
 
 ### Future Improvements
 - Integrate advanced alerting for failed DAGs or pipeline stages.
+<<<<<<< HEAD
 - Add data quality checks into the DAGs building on ![](images/adf-dag.png)
+=======
+- Add data quality checks into the DAGs building on ![](images/adf-dag)
+>>>>>>> 29da473173d12fa340b9cd34673b8951a0f3b192
