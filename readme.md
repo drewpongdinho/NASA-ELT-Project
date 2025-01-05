@@ -1,6 +1,6 @@
 ## Architecture
 
-![](images/Architecture ELT Overview)
+![](images/ELT-Overview.png)
 
 The pipeline comprises the following components:
 
@@ -51,8 +51,8 @@ The pipeline comprises the following components:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/your-repo-url.git
-   cd your-repo-name
+   git clone (https://github.com/drewpongdinho/NASA-ELT-Project.git)
+   cd NASA-ELT-Project
 
 2. **Configure Apache Airflow:**
 
@@ -88,12 +88,12 @@ The pipeline comprises the following components:
 
 ### Usage
 1. Trigger Airflow DAG: Use the Airflow UI or CLI to trigger the DAG for the weekly update.
-2. Monitor Progress:
-    Monitor Airflow logs for orchestration.
-    Check Azure Data Factory for transformation progress.
+2. Monitor Progress:  
+    Monitor Airflow logs for orchestration.  
+    Check Azure Data Factory for transformation progress.  
 3. Access Reports: View the updated Power BI report based on the latest data in the gold layer eg ![](images/pbi_dashboard.png)
 
 
 ### Future Improvements
 - Integrate advanced alerting for failed DAGs or pipeline stages.
-- Add data quality checks into the DAGs building on ![](images/adf-dag)
+- Add data quality checks into the DAGs building on ![](images/adf-dag.png)
