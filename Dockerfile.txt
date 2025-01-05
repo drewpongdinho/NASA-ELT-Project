@@ -1,0 +1,17 @@
+# Use airflow version latest
+FROM apache/airflow:latest
+
+# use azure-airflow version 11.1.0
+RUN pip install apache-airflow-providers-microsoft-azure==11.1.0
+
+# Copy dag data to airflow/dags in docker
+COPY dags/ /usr/local/airflow/dags
+
+# Set environment variables 
+ENV AIRFLOW_HOME=/opt/airflow
+
+# Expose the webserver port
+EXPOSE 8080
+
+# Command to run the Airflow webserver
+CMD ["airflow", "webserver", "-p", "8080"] 

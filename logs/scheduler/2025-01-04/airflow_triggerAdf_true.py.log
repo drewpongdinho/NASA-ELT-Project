@@ -1,0 +1,210 @@
+[2025-01-04T13:08:10.460+0000] {processor.py:186} INFO - Started process (PID=9290) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:08:10.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:08:10.466+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:08:10.466+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:08:10.528+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:08:10.519+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:08:10.532+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:08:10.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.111 seconds
+[2025-01-04T13:09:59.860+0000] {processor.py:186} INFO - Started process (PID=40) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:09:59.863+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:09:59.880+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:09:59.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:09:59.961+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:09:59.943+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:09:59.966+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:10:00.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.224 seconds
+[2025-01-04T13:10:30.713+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:10:30.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:10:30.719+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:10:30.719+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:10:30.753+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:10:30.745+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:10:30.755+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:10:30.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.075 seconds
+[2025-01-04T13:11:01.100+0000] {processor.py:186} INFO - Started process (PID=168) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:11:01.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:11:01.105+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:11:01.105+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:11:01.131+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:11:01.124+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:11:01.133+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:11:01.156+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.063 seconds
+[2025-01-04T13:11:32.142+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:11:32.144+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:11:32.149+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:11:32.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:11:32.191+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:11:32.181+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:11:32.194+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:11:32.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.095 seconds
+[2025-01-04T13:12:02.709+0000] {processor.py:186} INFO - Started process (PID=296) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:12:02.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:12:02.713+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:12:02.713+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:12:02.751+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:12:02.742+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:12:02.754+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:12:02.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.073 seconds
+[2025-01-04T13:12:32.957+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:12:32.958+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:12:32.963+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:12:32.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:12:33.001+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:12:32.993+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:12:33.004+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:12:33.057+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.110 seconds
+[2025-01-04T13:13:03.678+0000] {processor.py:186} INFO - Started process (PID=424) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:13:03.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:13:03.683+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:13:03.682+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:13:03.709+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:13:03.702+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:13:03.711+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:13:03.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.062 seconds
+[2025-01-04T13:13:34.716+0000] {processor.py:186} INFO - Started process (PID=488) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:13:34.718+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:13:34.723+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:13:34.722+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:13:34.756+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:13:34.748+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:13:34.759+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:13:34.796+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.090 seconds
+[2025-01-04T13:14:05.548+0000] {processor.py:186} INFO - Started process (PID=552) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:14:05.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:14:05.554+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:14:05.553+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:14:05.591+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:14:05.584+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:14:05.594+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:14:05.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.087 seconds
+[2025-01-04T13:14:35.948+0000] {processor.py:186} INFO - Started process (PID=617) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:14:35.949+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:14:35.952+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:14:35.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:14:35.977+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:14:35.972+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:14:35.980+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:14:36.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.067 seconds
+[2025-01-04T13:15:06.308+0000] {processor.py:186} INFO - Started process (PID=682) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:15:06.310+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:15:06.313+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:15:06.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:15:06.351+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:15:06.342+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:15:06.354+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:15:06.376+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.074 seconds
+[2025-01-04T13:15:36.671+0000] {processor.py:186} INFO - Started process (PID=753) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:15:36.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:15:36.676+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:15:36.676+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:15:36.707+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:15:36.699+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:15:36.710+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:15:36.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.069 seconds
+[2025-01-04T13:16:07.109+0000] {processor.py:186} INFO - Started process (PID=817) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:16:07.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:16:07.115+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:16:07.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:16:07.158+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:16:07.148+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:16:07.162+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:16:07.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.089 seconds
+[2025-01-04T13:16:37.863+0000] {processor.py:186} INFO - Started process (PID=881) to work on /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:16:37.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/airflow_triggerAdf_true.py for tasks to queue
+[2025-01-04T13:16:37.868+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:16:37.867+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:16:37.904+0000] {logging_mixin.py:190} INFO - [2025-01-04T13:16:37.895+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/airflow_triggerAdf_true.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/airflow_triggerAdf_true.py", line 10, in <module>
+    from airflow.providers.microsoft.azure.hooks.azure_data_factory import AzureDataFactoryHook
+ModuleNotFoundError: No module named 'airflow.providers.microsoft.azure.hooks.azure_data_factory'
+[2025-01-04T13:16:37.907+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/airflow_triggerAdf_true.py
+[2025-01-04T13:16:37.935+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/airflow_triggerAdf_true.py took 0.079 seconds
