@@ -88,9 +88,9 @@ The pipeline comprises the following components:
 
 ### Usage
 1. Trigger Airflow DAG: Use the Airflow UI or CLI to trigger the DAG for the weekly update.
-2. Monitor Progress:
-    Monitor Airflow logs for orchestration.
-    Check Azure Data Factory for transformation progress.
+2. Monitor Progress:  
+    Monitor Airflow logs for orchestration.  
+    Check Azure Data Factory for transformation progress.  
 3. Access Reports: View the updated Power BI report based on the latest data in the gold layer eg ![](images/pbi_dashboard.png)
 
 
