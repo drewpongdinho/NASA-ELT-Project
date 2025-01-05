@@ -47,7 +47,7 @@ raw_df = df
 from azure.storage.blob import BlobServiceClient
 
 # Replace with your actual connection string
-connection_string = "DefaultEndpointsProtocol=https;AccountName=medallionstorageee;AccountKey=+Durjzo3nkGqZ4C2+cnfNmpIT+Hebv5Ufa1QFU8pbp2Yg2SmFwAA0R5F0HE5Z4fqX0cg4I5Va44h+ASt894L3w==;EndpointSuffix=core.windows.net"
+connection_string = "***"
 
 container_name = "bronze"
 blob_name = f"raw_neo_data_{today}.csv"  # Assuming 'today' is defined elsewhere
